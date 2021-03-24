@@ -2,7 +2,7 @@ All training scripts used for Task1 models training can be found in this folder.
 
 generate_dataset_bloques.py was used to generate datasets with trajectories length comprised between minimum and maximum length.
 
-The following amount of trajectories were generated and used to train the models depending of the length of the trajectories:
+The following amount of trajectories were generated and used to train the models depending on the length of the trajectories:
   - 8 million trajectories with length between 10 and 20.
   - 6 million trajectories with length between 20 and 30.
   - 2 million trajectories with length between 30 and 40.
