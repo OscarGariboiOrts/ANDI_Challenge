@@ -12,6 +12,8 @@
   - 600 to 800
   - 800 to 1000
 
+These models were trained with 1D trajectories and were used with 1D, 2D and 3D trajectories. When 2D and 3D trajectories were considered the models were applied to the x component of the trajectory, not taking into account Y (both in 2D and 3D trajectories) and Z (3D trajectories) components.
+
 All models used for Task1 were trained using the same architecture, which consists of two stacked Conv1D layers followed by 4 Bidirectional LSTM layer with Dropout layers between them, followed by one Dense layer.
 
 Model architecture for trajectory length between 10 and 20 is show in the following picture:
