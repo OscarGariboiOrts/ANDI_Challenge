@@ -26,6 +26,8 @@ def main(args):
          - number: number of trajectories in 1 d to be generated.
          - dimension: dimension of the trajectories (1, 2 or 3)
          - task: task for the data to be used
+         - min: minimum trajectory length
+         - max: maximum trajectory length
 
         Output:
          - task2.txt file with the trajectories
